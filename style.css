@@ -44,12 +44,8 @@ h2 {
 }
 
 ul {
-    list-style: none;
-    padding: 0;
-}
-
-ul li {
-    margin-bottom: 10px;
+    list-style-type: disc;
+    margin-left: 20px;
 }
 
 /* Footer */
