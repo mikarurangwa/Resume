@@ -1,78 +1,86 @@
-/* General Styling */
+/* General body styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* Font for the entire page */
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Dark text color */
 }
 
+/* Header styling */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #333; /* Dark background for the header */
+    color: #fff; /* White text color */
     padding: 10px 0;
     text-align: center;
 }
 
+/* Content wrapper for header */
 .header-content {
     max-width: 900px;
     margin: 0 auto;
 }
 
+/* Main container for columns */
 .container {
-    display: flex;
+    display: flex; /* Flexbox for side-by-side layout */
     justify-content: space-between;
     max-width: 1200px;
-    margin: 20px auto;
-    padding: 0 20px;
+    margin: 20px auto; /* Centered with top/bottom margin */
+    padding: 0 20px; /* Padding on the sides */
 }
 
+/* Left and right column settings */
 .left-column, .right-column {
-    width: 45%;
+    width: 45%; /* 45% width for each column */
 }
 
+/* Box styling for sections like profile, education, and work experience */
 .box {
-    background-color: white;
+    background-color: white; /* White background */
     margin-bottom: 20px;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
+/* Title styling */
 h2 {
-    margin-top: 0;
+    margin-top: 0; /* No margin at the top of headings */
 }
 
+/* Horizontal rule (line) styling */
 hr {
-    border: none;
-    border-top: 2px solid #ccc;
-    margin: 10px 0;
+    border: none; /* Removes default border */
+    border-top: 2px solid #ccc; /* Custom solid gray line */
+    margin: 10px 0; /* Space around the line */
 }
 
+/* Unordered list (bullet points) styling */
 ul {
-    list-style-type: disc;
-    margin-left: 20px;
+    list-style-type: disc; /* Disc-style bullet points */
+    margin-left: 20px; /* Indented list */
 }
 
 ul li {
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Space between list items */
 }
 
-/* Footer */
+/* Footer styling */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #333; /* Dark footer background */
+    color: #fff; /* White text color */
     text-align: center;
-    padding: 20px;
+    padding: 20px; /* Padding inside the footer */
 }
 
-/* Responsive Design */
+/* Responsive design for smaller screens */
 @media screen and (max-width: 768px) {
     .container {
-        flex-direction: column;
+        flex-direction: column; /* Stack columns vertically */
     }
 
     .left-column, .right-column {
-        width: 100%;
+        width: 100%; /* Full-width columns on small screens */
     }
 }
